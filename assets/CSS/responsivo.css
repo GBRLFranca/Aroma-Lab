@@ -1,0 +1,289 @@
+@media (max-width: 420px) {
+
+    h1 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+
+
+    header {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+
+
+    .banner {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .banner-limite {
+        flex-direction: column; 
+    }
+
+    .kit, .bannerimg {
+        width: 100%;
+    }
+
+    .kit {
+        padding-top: 20px;
+        order: 2; /*Coloca o texto depois da imagem */
+    }
+
+    .bannerimg {
+        height: 250px;
+        order: 1; /*Coloca a imagem antes do texto */
+    }
+
+    .kit ul {
+        height: auto;
+        gap: 15px;
+        padding: 20px 0;
+    }
+    .kit ul li {
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    
+
+    .fragrancias {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .cards .fragrancia {
+        height: auto;
+        width: 80%;
+    }
+
+    
+
+    .tresblocos {
+        height: auto;
+    }
+
+    .tresblocos .blocos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .tresblocos .blocos .tamanhos,
+    .tresblocos .blocos .foto-meio,
+    .tresblocos .blocos .produtos {
+        width: 90%;
+        height: auto;
+    }
+
+    .tresblocos .blocos .tamanhos ul {
+        padding-bottom: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tresblocos .blocos .foto-meio {
+        height: 280px;
+    }
+    
+    .tresblocos .blocos .produtos {
+        padding: 0;
+    }
+    
+    .tresblocos .blocos .produtos ul {
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+    span {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .limitar {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .head-limit{
+        padding: 15px 0 15px 10px;
+    }
+
+    .banner {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .banner-limite {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .kit, .bannerimg {
+        width: 80%;
+        text-align: center;
+    }
+
+    .bannerimg {
+        height: 300px;
+    }
+
+    .kit ul {
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .kit ul li {
+        font-size: 22px;
+        margin-left: 0;
+    }
+    
+    
+
+    .fragrancias {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .cards .fragrancia {
+        flex-basis: 200px; /* Ajusta a base do flex para que 2 ou 3 cards caibam por linha */
+    }
+    
+    
+
+    .tresblocos {
+        height: auto;
+    }
+
+    .tresblocos .blocos {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 30px 0;
+    }
+
+    .tresblocos .blocos .tamanhos,
+    .tresblocos .blocos .foto-meio,
+    .tresblocos .blocos .produtos {
+        width: 100%;
+    }
+
+    .tresblocos .blocos .foto-meio {
+        height: 350px;
+    }
+    
+    span {
+        text-align: center;
+        display: block;
+    }
+
+    .tresblocos .blocos .tamanhos ul,
+    .tresblocos .blocos .produtos ul {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1100px) {
+
+   h3 {
+    margin: 50px 0;
+   }
+   
+    .limitar {
+        padding: 0 30px;
+    }
+
+    .head-limit{
+        padding: 15px 0 15px 10px;
+    }
+
+    .fragrancias {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    
+    .tresblocos { /* Este é o ajuste mais importante para esta resolução */
+        height: auto; /* Altura se ajusta ao novo conteúdo empilhado */
+        padding: 40px 0;
+    }
+
+    .tresblocos .blocos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .tresblocos .blocos .tamanhos,
+    .tresblocos .blocos .produtos {
+        flex-basis: 45%; 
+        min-width: 300px;
+    }
+
+    .tresblocos .blocos .foto-meio {
+        flex-basis: 45%;
+        min-width: 300px;
+        height: 300px;
+    }
+    
+    span {
+        padding: 0 20px;
+    }
+
+}

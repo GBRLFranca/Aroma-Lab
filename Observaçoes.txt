@@ -1,0 +1,15 @@
+- substituir o "bath kits" por "Kits de banho":
+	.esfoliante
+	.hidratante
+	.body splash
+	.sabonete liquido;
+- do lado do kit de banho uma foto de um kit;
+- na parte de "import perfums" colocar algumas fragrâncias(tentar com foto para ver se fica legal)
+- tamanho de perfume onde esta "perfume sizes": 15ml, 50ml, e 100ml
+
+- SEGUIR LAYOUT DA FOTO
+- cores:
+	.cinza bem claro - #f5f7f8 (cor de fundo);
+	.cinza-carvao escuro - #25282a (texto principal, logo e botões);
+	.azul-acinzentado - #cad7d9 (banner)
+- fontes: Montserrat, ou Lato, e sans serif

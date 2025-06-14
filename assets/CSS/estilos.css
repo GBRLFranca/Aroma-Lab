@@ -1,0 +1,234 @@
+.limitar {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    color: #25282a;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav a {
+    color: #25282a;
+    width: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a i {
+    width: 100%;
+    color: #25282a;
+}
+
+.banner {
+    width: 100%;
+    background-color: #cad7d9;
+    height: 300px;
+}
+
+.banner-limite {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.kit{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+}   
+
+h2 {
+    font-size: 32px;
+}
+
+.kit ul {
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.kit ul li {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.bannerimg {
+    width: 50%;
+    height: 100%;
+}
+
+.bannerimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fragrancias {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 280px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.cards .fragrancia {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards .fragrancia img {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    object-fit: contain;
+}
+
+.cards .fragrancia .nome-frag {
+    font-size: 20px;
+}
+
+button {
+    background-color: #cad7d9;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px;
+}
+
+button a {
+    width: 100%;
+    height: 100%;
+    color: #25282a;
+    font-weight: 600;
+}
+
+.tresblocos{
+    width: 100%;
+    height: 300px;
+    background-color: #f5f7f8;
+}
+
+.tresblocos .blocos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+.tresblocos .blocos ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.tresblocos .blocos .tamanhos {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tresblocos .blocos .tamanhos ul{
+    padding-bottom: 60px;
+}
+
+.tresblocos .blocos .tamanhos ul li{
+    background-color: #ffff;
+    border: 2px solid #25282a;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+.tresblocos .blocos .foto-meio {
+    width: 100%;
+    height: 100%;
+}
+
+.tresblocos .blocos .foto-meio img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #bfecff;
+}
+
+
+
+
+.tresblocos .blocos .produtos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+span{
+    font-size: 20px;
+    margin: 10px 0 30px 0;
+    padding: 0 10px;
+    font-weight: 420;
+    
+}
+
+.tresblocos .blocos .produtos ul{
+    flex-wrap: wrap;
+}
+
+.tresblocos .blocos .produtos ul li {
+    text-align: center;
+    max-width: 120px;
+    padding: 7px;
+    background-color: #ffff;
+    border: 2px solid #25282a;
+}
+
+.tresblocos .blocos .produtos ul li:nth-of-type(2) {
+    font-size: 15px;
+}
